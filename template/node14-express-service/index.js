@@ -14,7 +14,7 @@ async function init() {
     app.disable('x-powered-by');
 
     app.listen(port, () => {
-        console.log(`node10-express-service, listening on port: ${port}`)
+        console.log(`node14-express-service, listening on port: ${port}`)
     });    
 }
 

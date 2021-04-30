@@ -1,7 +1,7 @@
-OpenFaaS Node.js 10 (LTS) and Express.js micro-service template
+OpenFaaS Node.js 14 (LTS) and Express.js micro-service template
 =============================================
 
-This template provides Node.js 10 (LTS) and full access to [express.js](http://expressjs.com/en/api.html#req.is) for building microservices for [OpenFaaS](https://www.openfaas.com), Docker, Knative and Cloud Run.
+This template provides Node.js 14 (LTS) and full access to [express.js](http://expressjs.com/en/api.html#req.is) for building microservices for [OpenFaaS](https://www.openfaas.com), Docker, Knative and Cloud Run.
 
 With this template you can create a new microservice and deploy it to a platform like [OpenFaaS](https://www.openfaas.com) for:
 
@@ -17,7 +17,7 @@ This template is experimental and I would like your feedback through GitHub issu
 
 ## Supported platforms
 
-* x86_64 - `node10-express-service`
+* x86_64 - `node14-express-service`
 
 ## Get started
 
@@ -27,8 +27,8 @@ You can create or scaffold a new microservice using the [OpenFaaS CLI](https://g
 # USERNAME is your Docker Hub account or private Docker registry
 $ export USERNAME=alexellisuk
 
-$ faas template pull https://github.com/openfaas-incubator/node10-express-service
-$ faas new --lang node10-express-service microservice1 --prefix="${USERNAME}"
+$ faas template pull https://github.com/Qolzam/node14-express-service
+$ faas new --lang node14-express-service microservice1 --prefix="${USERNAME}"
 ```
 
 Once you've written your code you can run `faas-cli build` to create a local Docker image, then `faas-cli push` to transfer it to your registry.
